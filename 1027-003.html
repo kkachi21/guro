@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <style>
+        .cls001 {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cls001 > li {
+           width: 150px;
+           float: left;
+           text-align: center;
+           height: 30px;
+           line-height: 30px;
+           background: #ddd; 
+        }
+
+        .cls001 li ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cls001 li ul li {
+            width: 150px;
+           text-align: center;
+           height: 30px;
+           line-height: 30px;
+           background: #ccc;
+           border-bottom: 1px solid black;
+           display: none; 
+        }
+
+        .cls001 li:hover ul li {
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <ul class="cls001">
+        <li>HTML
+            <ul>
+                <li>스타일</li>
+                <li>웹표준</li>
+                <li>마크업</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+
+<!-- list-style = list-style-type  -->
+<!-- .cls001 > li : 자식선택자 -->
+<!-- height 값과 line-height의 값은 동일하게 설정할 것 = 수식에서의 정렬에서의 정확한 가운데 값 -->
+<!-- 해당 소스는 외우다 시피 할 것(메뉴의 기초작업) -->

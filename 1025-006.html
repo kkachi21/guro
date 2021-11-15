@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비디오, 오디오</title>
+    <style>
+      div {
+          width: 70px;
+          height: 70px;
+          background: red;
+          animation-name: ani;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear;
+          animation-direction: alternate;
+          position: absolute;
+          top: 50px;
+          left: 50px;
+        }
+
+        @keyframes ani {
+            0% {
+                position: absolute;
+                top: 50px;
+                left: 50px;    
+            }
+        
+
+            25% {
+            position: absolute;
+            top: 50px;
+            left: 500px;
+            background: dodgerblue;
+            }
+
+        50% {
+            position: absolute;
+            top: 500px;
+            left: 500px;
+            border-radius: 50%;
+
+        }
+
+        75% {
+            position: absolute;
+            top: 500px;
+            left: 50px
+        }
+
+        100% {
+            position: absolute;
+            top: 50px;
+            left: 50px
+
+        }
+    }    
+    </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>
+
+<!-- border-collapse - separate,collapse -->
+<!-- linear-gradient : 선형으로 색깔의 변화 -->
+<!-- radial-gradient : 원형으로의 색깔의 변화 -->
+<!-- deg : 각도의 약자 -->
+<!-- ellipse : 원형의 형태가 찌그러진다 -->
+<!-- transform - scale : 확대, rotate : 회전(각도) -->
+<!-- transition : 경과시간, skew : 좌우로 잡아늘림(각도) -->
+<!-- translate : 지정된 px만큼 오른쪽으로 이동  -->
+<!-- transition사용시 주의점 : hover가 작동하기 전에 먼저 기입하여야 한다. 이전단계에 주어야 한다는 것 -->
+<!-- animation 부분의 명령어는 모두 외워둘 것 -->
+<!-- from = 0%, to= 100% -->

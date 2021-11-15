@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일시트</title>
+    <script src="https://kit.fontawesome.com/9448297042.js" crossorigin="anonymous"></script>
+    <style>
+       p {
+           width: 250px;
+           height: 200px;
+           border: 1px solid black;
+       }
+
+       p:before {
+           content: "";
+           display: block;
+           clear: both;
+           width: 350px;
+           height: 25px;
+           background: darkcyan;
+       }
+
+       p:after {
+           content: "";
+           display: block;
+           clear: both;
+           width: 350px;
+           height: 25px;
+           background: darkcyan;
+       }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perferendis quibusdam id, rerum voluptas, nesciunt cum nulla voluptatibus nam ut excepturi nisi suscipit aperiam iusto dicta fugit alias quis est!</p>
+</body>
+</html>
+<!-- 모든 프로그래밍에서 n값은 0에서부터 시작 -->
+<!-- odd : 홀수. even : 짝수 -->
+<!-- content : 빈공간, display : 화면유형, clear : both 는 함께 붙어 다닌다 -->

@@ -1,0 +1,12 @@
+가장 난해한 문제
+
+포지션 - position
+플롯 - float
+디스플레이 - display
+
+포지션 relative는 absolute와 함께 쓰였을 때
+absolute는 부모나 조상요소중의 relative값을 가진
+요소 안에서 움직인다. 즉 좌표값을 가지게 된다.
+
+하지만 absolute가 단독으로 사용되게 될 경우 브라우저를 기준으로 하여
+좌표값을 가진다.

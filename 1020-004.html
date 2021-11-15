@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일시트</title>
+    <style>
+        h1 {
+            font-size: 60px;
+            color: red;
+            font-style: normal;
+            font-weight: 600;
+            /* 100에서 900까지 사용, 400이 노멀, 600이 볼드(유료폰트일수록 폰트의 굵기에 차이가 있다) */
+            font-family: 나눔고딕;
+        }
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: black
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: rgba(255, 0, 0, 0.5);
+            text-decoration: line-through;
+        }
+        
+        a:active {
+            color:yellow;
+        }
+        /* 해당 서순은 반드시지켜주어야 한다 link, visited, hover, active 순서대로 */
+        /* 텍스트에 선이 추가되는 경우는 윗선 아랫선 취소선 (overline, underline, line-through) */
+    </style>
+</head>
+<body>
+    <h1><a href="#">스타일시트시작</a></h1>
+</body>
+</html>
